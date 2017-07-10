@@ -54,8 +54,8 @@ from urllib2 import HTTPError
 # OAuth credential placeholders that must be filled in by users.
 # You can find them on
 # https://www.yelp.com/developers/v3/manage_app
-CLIENT_ID = 'y-_P-OzNQmDy4z47pU4jxw'
-CLIENT_SECRET = 'DpZgABZ1tqQa1NKz6M0NuAT2rfEpuKXtocKzuTX9Tp0voT02iKXOsGkUbKjnnyXa'
+CLIENT_ID = 'provided your own'
+CLIENT_SECRET = 'provided your own'
 
 # API constants for YELP's API
 API_HOST = 'https://api.yelp.com'
