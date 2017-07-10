@@ -52,8 +52,8 @@ from urllib2 import HTTPError
 #REMOVE FOR DESTRIBUTION
 #CLIENT_ID = 'insert-creds-here'
 #CLIENT_SECRET = 'insert-creds-here'
-CLIENT_ID = 'y-_P-OzNQmDy4z47pU4jxw'
-CLIENT_SECRET = 'DpZgABZ1tqQa1NKz6M0NuAT2rfEpuKXtocKzuTX9Tp0voT02iKXOsGkUbKjnnyXa'
+CLIENT_ID = 'provided your own'
+CLIENT_SECRET = 'provided your own'
 
 # API constants for YELP's API
 API_HOST = 'https://api.yelp.com'
