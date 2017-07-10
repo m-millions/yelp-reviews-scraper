@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Requierments:
-Python 2.7.x
-pip install lxml lxml-3.8.0 
-pip install requests
-
 Description:
 
 This program uses Yelp"s Fusion API to:
