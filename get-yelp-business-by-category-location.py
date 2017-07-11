@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-This program demonstrates the capability of the Yelp Fusion API
-by using the Search API to query for businesses by a search categories, location, name
-and the Business API to query additional information about the top result
-from the search query.
+This program uses Yelp"s Fusion API to:
+
+(1) Query for a specific business --->>> GET https://api.yelp.com/v3/businesses/search
+    using the criteira: "categories", and "location" in the query string
 
 Sample usage of the program:
 `python get-yelp-reviews.py --categories="pizza" --location="New York, NY" 
