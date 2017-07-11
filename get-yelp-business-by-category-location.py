@@ -1,17 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Yelp Fusion API code sample.
-
 This program demonstrates the capability of the Yelp Fusion API
 by using the Search API to query for businesses by a search categories, location, name
 and the Business API to query additional information about the top result
 from the search query.
-
-Please refer to http://www.yelp.com/developers/v3/documentation for the API
-documentation.
-
-This program requires the Python requests library, which you can install via:
-`pip install -r requirements.txt`.
 
 Sample usage of the program:
 `python get-yelp-reviews.py --categories="pizza" --location="New York, NY" 
@@ -23,20 +15,6 @@ SAMPLE/ACTUAL YELP BUSINESS for PIZZA and NEW YORK, NY
     Rubirosa, Stage Door Pizza, Patsys Pizzeria, Paulie Gee's
     Sottocasa Pizzeria- Boerum Hill, Barboncino Pizza & Bar, Joe's Pizza
     PN Wood Fired Pizza, B Squared
-
-SAMPLE/ACTUAL JSON object retured:
-Juliana's Pizza julianas-pizza-brooklyn-5 {u'city': u'Brooklyn', u'display_address': 
-                                           [u'19 Old Fulton St', u'Brooklyn, NY 11201'], 
-                                            u'country': u'US', u'address2': u'', 
-                                            u'address3': u'', u'state': u'NY', 
-                                            u'address1': u'19 Old Fulton St', u'zip_code': u’11201'}
-
-Prince Street Pizza prince-street-pizza-new-york-2 {u'city': u'New York', u'display_address': 
-                                                    [u'27 Prince St', u'New York, NY 10012'], 
-                                                     u'country': u'US', u'address2': u'', 
-                                                     u'address3': u'', u'state': u'NY', 
-                                                     u'address1': u'27 Prince St', u'zip_code': u’10012'}
-...
 """
 from __future__ import print_function
 
