@@ -1,5 +1,5 @@
 
-There are two scripts in this repository, and the both Yelp's Fusion API
+There are two scripts in this repository, and they both use Yelp's Fusion API
 to return a JSON object.
 
 Please refer to http://www.yelp.com/developers/v3/documentation for the API
