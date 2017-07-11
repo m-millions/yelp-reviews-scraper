@@ -1,29 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Description:
-
 This program uses Yelp"s Fusion API to:
 (1) Query for a specific business --->>> GET https://api.yelp.com/v3/businesses/search
     using the criteira: "categories", "location", "name" in the query string, and 
 (2) Once the page url is extracted for a business, scrape the reivews and ratings for 
     that specific business
 (3) Query for a set number of business reviews using the passed value in "reviews" 
-
-For Detail API Documentation, please reference --->>> https://www.yelp.com/developers/documentation/v3
-
-Sample usage of the program, but running at the command line --->>>
-python get-yelp-reviews-v7.py --categories="pizza" --location="New York, NY" --name="Patsys Pizzeria" --reviews="5"
-
-Alternatively, run without input ( hard-coded default values will take over... ), as such --->>>
-python get-yelp-reviews.py
-
-SAMPLE/ACTUAL YELP BUSINESS for PIZZA and NEW YORK, NY ( pick one )
-    Juliana's Pizza, Prince Street Pizza, Lombardi's , L'industrie Pizzeria
-    Patzeria Perfect Pizza, My Pie, Joe's Pizza, NY Pizza Suprema
-    B Side Pizza & Wine Bar, Adrienne's Pizzabar, La Margarita Pizza
-    Rubirosa, Stage Door Pizza, Patsys Pizzeria, Paulie Gee's
-    Sottocasa Pizzeria- Boerum Hill, Barboncino Pizza & Bar, Joe's Pizza
-    PN Wood Fired Pizza, B Squared
 """
 from __future__ import print_function
 
