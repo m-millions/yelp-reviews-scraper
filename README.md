@@ -6,14 +6,14 @@ Please refer to http://www.yelp.com/developers/v3/documentation for the API
 documentation.
 
 SAMPLE/ACTUAL YELP BUSINESS for PIZZA and NEW YORK, NY ( pick one ):
-'
+```
     Juliana's Pizza, Prince Street Pizza, Lombardi's , L'industrie Pizzeria
     Patzeria Perfect Pizza, My Pie, Joe's Pizza, NY Pizza Suprema
     B Side Pizza & Wine Bar, Adrienne's Pizzabar, La Margarita Pizza
     Rubirosa, Stage Door Pizza, Patsys Pizzeria, Paulie Gee's
     Sottocasa Pizzeria- Boerum Hill, Barboncino Pizza & Bar, Joe's Pizza
     PN Wood Fired Pizza, B Squared
-'
+```
 
 (1) "get-yelp-business-by-category-location.py"
 
@@ -23,10 +23,10 @@ This program requires the Python "requests" and "lxml" libraries, which you can 
 'pip install -r requirements.txt'.
 
 Sample usage of the program:
-`python get-yelp-reviews.py --categories="pizza" --location="New York, NY" 
+`python get-yelp-reviews.py --categories="pizza" --location="New York, NY"` 
 
 SAMPLE/ACTUAL JSON object retured:
-
+```
 Juliana's Pizza julianas-pizza-brooklyn-5 {u'city': u'Brooklyn', u'display_address': 
                                            [u'19 Old Fulton St', u'Brooklyn, NY 11201'], 
                                             u'country': u'US', u'address2': u'', 
@@ -37,6 +37,7 @@ Prince Street Pizza prince-street-pizza-new-york-2 {u'city': u'New York', u'disp
                                                      u'country': u'US', u'address2': u'', 
                                                      u'address3': u'', u'state': u'NY', 
                                                      u'address1': u'27 Prince St', u'zip_code': u’10012'}
+```
 
 (2) "get-yelp-reviews-script.py"
 
@@ -48,12 +49,12 @@ This program uses Yelp"s Fusion API to:
 (3) Query for a set number of business reviews using the passed value in "reviews" 
 
 Sample usage of the program, but running at the command line --->>>
-python get-yelp-reviews-v7.py --categories="pizza" --location="New York, NY" --name="Patsys Pizzeria" --reviews="5"
+`python get-yelp-reviews-v7.py --categories="pizza" --location="New York, NY" --name="Patsys Pizzeria" --reviews="5"`
 
 Alternatively, run without input ( hard-coded default values will take over... )
 
 SAMPLE/ACTUAL JSON object retured:
-
+```
 {
   "name": "Juliana's Pizza",
   "reviews": [
@@ -80,5 +81,5 @@ SAMPLE/ACTUAL JSON object retured:
   ],
   "uri": "http://localhost:5000/get-reviews/api/v1.0/reviews/pizza/New%20York%2C%20NY/Juliana%27s%20Pizza/5"
 }
-
+```
 
