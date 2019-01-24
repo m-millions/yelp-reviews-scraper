@@ -7,12 +7,12 @@ documentation.
 
 SAMPLE/ACTUAL YELP BUSINESS for PIZZA and NEW YORK, NY ( pick one of the below examples):
 
-    ```Juliana's Pizza, Prince Street Pizza, Lombardi's , L'industrie Pizzeria```
-    ```Patzeria Perfect Pizza, My Pie, Joe's Pizza, NY Pizza Suprema```
-    ```B Side Pizza & Wine Bar, Adrienne's Pizzabar, La Margarita Pizza```
-    ```Rubirosa, Stage Door Pizza, Patsys Pizzeria, Paulie Gee's```
-    ```Sottocasa Pizzeria- Boerum Hill, Barboncino Pizza & Bar, Joe's Pizza```
-    ```PN Wood Fired Pizza, B Squared```
+    `Juliana's Pizza, Prince Street Pizza, Lombardi's , L'industrie Pizzeria`
+    `Patzeria Perfect Pizza, My Pie, Joe's Pizza, NY Pizza Suprema`
+    `B Side Pizza & Wine Bar, Adrienne's Pizzabar, La Margarita Pizza`
+    `Rubirosa, Stage Door Pizza, Patsys Pizzeria, Paulie Gee's`
+    `Sottocasa Pizzeria- Boerum Hill, Barboncino Pizza & Bar, Joe's Pizza`
+    `PN Wood Fired Pizza, B Squared`
 
 
 (1) "get-yelp-business-by-category-location.py"
@@ -27,7 +27,8 @@ Sample usage of the program:
 
 SAMPLE/ACTUAL JSON object retured:
 
-```Juliana's Pizza julianas-pizza-brooklyn-5 {u'city': u'Brooklyn', u'display_address': 
+```
+Juliana's Pizza julianas-pizza-brooklyn-5 {u'city': u'Brooklyn', u'display_address': 
                                            [u'19 Old Fulton St', u'Brooklyn, NY 11201'], 
                                             u'country': u'US', u'address2': u'', 
                                             u'address3': u'', u'state': u'NY', 
@@ -37,7 +38,8 @@ Prince Street Pizza prince-street-pizza-new-york-2 {u'city': u'New York', u'disp
                                                     [u'27 Prince St', u'New York, NY 10012'], 
                                                      u'country': u'US', u'address2': u'', 
                                                      u'address3': u'', u'state': u'NY', 
-                                                     u'address1': u'27 Prince St', u'zip_code': u’10012'}```
+                                                     u'address1': u'27 Prince St', u'zip_code': u’10012'}
+```
 
 
 (2) `get-yelp-reviews-script.py`
